@@ -1,1 +1,1 @@
-Subida de resolución de problemas de certámenes, tareas, del ramo estructuras de datos semestre 2 - 2020.
+Resolución de problemas de certámenes, tareas, etc, del ramo estructuras de datos semestre 2 - 2020.
