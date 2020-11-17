@@ -2,13 +2,15 @@
 La estructura principal es una lista simple de personas (ordenada por Rol),
 conectadas mediante un puntero llamado next (conecta a todas las personas de la lista).
 Pero también existen varias listas circulares separadas que son conectadas mediante el puntero hermano.
-Class nodo():
+```python
+class Nodo:
     rol  =  0
-    nombre  =  “    “
-    sexo  =  “*”
+    nombre  =  ""
+    sexo  =  "*"
     edad  =  0
     hermano  = None
     next = None
+```
 Se debe construir un programa COMPLETO en Python, que permita las siguientes opciones (presentar un menú y programar las
 opciones usando procedimientos):
 -	Agregar una nueva persona. Datos a ingresar: Rol, Nombre, Sexo,Edad.

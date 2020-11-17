@@ -1,0 +1,13 @@
+Â¿Vive en el agua?;*;*
+Â¿Tiene una especie llamada Koi?;Â¿Vive en el agua?;S
+Pez;Â¿Tiene una especie llamada Koi?;S
+Rana;Â¿Tiene una especie llamada Koi?;N
+Â¿Es un felino?;Â¿Vive en el agua?;N
+Â¿corre mas rapido?;Â¿Es un felino?;S
+Â¿corre aun mas rapido?;Â¿corre mas rapido?;S
+cheetah;Â¿corre aun mas rapido?;S
+puma;Â¿corre aun mas rapido?;N
+Gatito;Â¿corre mas rapido?;N
+¿tiene una raza llamada labrador?;Â¿Es un felino?;N
+perro;¿tiene una raza llamada labrador?;S
+Raton;¿tiene una raza llamada labrador?;N

@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "preserveConstEnums": true,
+    "strict": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "lib": [
+      "es2015",
+      "dom"
+    ],
+    "target": "ES6"
+  },
+  "include": ["**/*"]
+}
