@@ -1,4 +1,4 @@
-2)	Se tiene una estructura de datos, que en realidad corresponde a varias listas .
+1.	Se tiene una estructura de datos, que en realidad corresponde a varias listas .
 La estructura principal es una lista simple de personas (ordenada por Rol),
 conectadas mediante un puntero llamado next (conecta a todas las personas de la lista).
 Pero también existen varias listas circulares separadas que son conectadas mediante el puntero hermano.

@@ -1,6 +1,7 @@
 # Lucas Vergara Ibañez 192 - B
 
 import random
+
 from faker import Faker
 
 faker = Faker()
@@ -152,12 +153,12 @@ def Listar(raiz_masculina: Habitante, raiz_femenina: Habitante):
     pass
 
 
-# PROGRAMA PRINCIPAL
-BasePer = None
-RaizMasc = None
-RaizFem = None
-BasePer = LeerDatosYCrearLista(BasePer)
-RaizMasc, RaizFem = CrearArboles(BasePer, RaizMasc, RaizFem)
-leer_lista(BasePer)
-Matrimonear(RaizMasc, RaizFem)
-Listar(RaizMasc, RaizFem)
+def main():
+    BasePer = None
+    RaizMasc = None
+    RaizFem = None
+    BasePer = LeerDatosYCrearLista(BasePer)
+    RaizMasc, RaizFem = CrearArboles(BasePer, RaizMasc, RaizFem)
+    leer_lista(BasePer)
+    Matrimonear(RaizMasc, RaizFem)
+    Listar(RaizMasc, RaizFem)

@@ -48,6 +48,7 @@ def LeerDatosYCrearLista(_BasePal):
 def leer_arbol(nodo_actual: NODO):
     global total, total_repetidas
     if nodo_actual is not None:
+        leer_arbol(nodo_actual.izq)
         total += nodo_actual.cantidad
         if nodo_actual.cantidad > 1:
             total_repetidas += 1
@@ -56,7 +57,6 @@ def leer_arbol(nodo_actual: NODO):
                 print("Sinonimo: " + nodo_actual.sinonimo.palabrita + "\n")
             else:
                 print("Sinonimo: ****** \n")
-        leer_arbol(nodo_actual.izq)
         leer_arbol(nodo_actual.der)
 
 
@@ -111,18 +111,22 @@ def Listar(_RaizPal):
     print("Nombre --- Cantidad de veces")
     leer_arbol(_RaizPal)
     print(total, total_repetidas)
-    pass
 
 
-# PROGRAMA PRINCIPAL
-BasePal = None
-RaizPal = None
-BasePal = LeerDatosYCrearLista(BasePal)
-RaizPal = CrearArbol(BasePal, RaizPal)
 sinonimo_uno = None
 sinonimo_dos = None
 total = 0
 total_repetidas = 0
-Listar(RaizPal)
-ConectarSinonimos(RaizPal)
-Listar(RaizPal)
+
+
+def main():
+    BasePal = None
+    RaizPal = None
+    BasePal = LeerDatosYCrearLista(BasePal)
+    RaizPal = CrearArbol(BasePal, RaizPal)
+    Listar(RaizPal)
+    ConectarSinonimos(RaizPal)
+    Listar(RaizPal)
+
+
+main()
