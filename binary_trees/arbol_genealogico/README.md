@@ -11,4 +11,4 @@ teclado el nombre de la persona a buscar, desplegando los nombres de los
 descendientes o no tiene descendencia de acuerdo con el resultado de la
 búsqueda.
 5. Determinar si una persona es padre de la otra. Para ello se deberá ingresar
-por teclado el nombre de la p
+por teclado el nombre de la persona

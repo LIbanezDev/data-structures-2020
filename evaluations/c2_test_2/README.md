@@ -1,3 +1,5 @@
+<h1> Ejercicio tipo certamen 2 - Arboles Binarios </h1>
+
 En el gobierno que administra cierta isla se desea almacenar los datos de sus habitantes en una estructura de datos conformada por dos árboles binarios de búsqueda (ordenados por Rol, clave = Rol). Uno de los árboles (apuntado por RaizMasc) contendrá datos de los hombres de la isla y el otro árbol (apuntado por RaizFem) contendrá datos de las mujeres de la isla. Ver figura que muestra como podría quedar la estructura al final del proceso (para ciertos datos de prueba). Existe un puntero (conyuge) en que en caso de matrimonio el nodo del hombre apuntará al nodo de su esposa y el nodo de la mujer apuntará al nodo de su esposo. 
 
 Se debe utilizar la siguiente definición de nodo para los dos árboles. No se acepta que se modifique la estructura de registros: 

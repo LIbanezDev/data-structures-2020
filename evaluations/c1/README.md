@@ -1,4 +1,4 @@
-<h1> Certamen Uno S2 - 2020 </h1>
+<h1> Certamen 1  EDD - Semestre 2 - 2020 </h1>
 
 Un estudiante está empezando un estudio que tiene que ver con palabras del lenguaje español y del lenguaje inglés.
 

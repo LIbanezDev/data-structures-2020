@@ -30,7 +30,7 @@ class Persona:
 
 def LeerDatosYCrearLista(_base_personas: None) -> Persona:
     nueva_base = Persona(random.randint(1, 100), generos[random.randint(0, 1)], faker.name(), random.randint(18, 50))
-    iteador_base = nueva_base
+    iterador_base = nueva_base
     continuar = True
     while continuar:
         rol: int = 0
@@ -46,8 +46,8 @@ def LeerDatosYCrearLista(_base_personas: None) -> Persona:
                 iter_busca_rol = iter_busca_rol.siguiente
             if not existe:
                 rol_correcto = True
-        iteador_base.siguiente = Persona(rol, generos[random.randint(0, 1)], faker.name(), random.randint(18, 50))
-        iteador_base = iteador_base.siguiente
+        iterador_base.siguiente = Persona(rol, generos[random.randint(0, 1)], faker.name(), random.randint(18, 50))
+        iterador_base = iterador_base.siguiente
         continua = input("Desea continuar? s/n")
         if continua == "n":
             continuar = False
