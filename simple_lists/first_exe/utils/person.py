@@ -141,7 +141,7 @@ def listar_personas(base):
     print("\n---- Listado ----")
     while iterator is not None:
         iterator_brothers_base = iterator.brother
-        print("ID:" + str(iterator.id) + " - Nombre:" + iterator.nombre + " - Sexo:" + iterator.sexo + " - Edad:" + str(
+        print("ID:" + str(iterator.id_user) + " - Nombre:" + iterator.nombre + " - Sexo:" + iterator.sexo + " - Edad:" + str(
             iterator.edad) + " - Rol: " + str(iterator.rol))
         count = 1
 

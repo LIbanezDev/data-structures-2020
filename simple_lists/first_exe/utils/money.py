@@ -11,7 +11,7 @@ def get_users(user_iterator):
 def main(current_user, base_todos):
     iterator_todos = base_todos
     while iterator_todos is not None:
-        if iterator_todos.user_id == current_user.id:
+        if iterator_todos.user_id == current_user.id_user:
             if current_user.todos is None:
                 current_user.todos = iterator_todos
                 continue
